@@ -1,2 +1,3 @@
 # W2_Workshop
-Week 2 Designing a Database Exercise - Lana's Dog Walking Business Database
+Exercise 2.B: Lana's Dog Walking Business Database
+Group members: Marenza Santarin, Chris Ramirez
