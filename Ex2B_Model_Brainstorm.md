@@ -1,26 +1,88 @@
-# Logical Model
+# Requirements and Conceptual Model
 
 Group members: Marenza Santarin, Cris Ramirez
 
 
 
-**ENTITIES \& ATTRIBUTES:**
+DOG WALKING BUSINESS DATABASE PLAN
 
 
 
-CUSTOMERS
+End User: Staff and owner
 
-\- customer\_id (PK)
 
-\- first\_name
 
-\- last\_name
+Purpose: Track dogs \& owner info, walks, walkers, and payments.
+
+
+
+Categories:
+
+1\. Dogs
+
+2\. Walkers
+
+3\. Walks
+
+4\. Payments
+
+
+
+DOGS
+
+\- owner info
+
+\- dog name
+
+\- breed
+
+\- age
+
+\- notes
+
+
+
+WALKERS
+
+\- first name
+
+\- last name
 
 \- phone
 
 \- email
 
-\- address
+
+
+WALKS
+
+\- walk date
+
+\- start time
+
+\- duration minutes
+
+\- status
+
+
+
+PAYMENTS
+
+\- walk date
+
+\- amount
+
+\- payment date
+
+\- payment method
+
+
+
+
+
+# Logical Model
+
+**MAIN ENTITIES \& ATTRIBUTES:**
 
 
 
@@ -28,7 +90,7 @@ DOGS
 
 \- dog\_id (PK)
 
-\- customer\_id (FK)
+\- owner\_info
 
 \- dog\_name
 
@@ -76,8 +138,6 @@ PAYMENTS
 
 \- payment\_id (PK)
 
-\- customer\_id (FK)
-
 \- walk\_id (FK)
 
 \- amount
@@ -85,6 +145,8 @@ PAYMENTS
 \- payment\_date
 
 \- payment\_method
+
+
 
 
 
