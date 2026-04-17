@@ -4,6 +4,10 @@ Group members: Marenza Santarin, Chris Ramirez
 
 
 
+**ENTITIES \& ATTRIBUTES:**
+
+
+
 CUSTOMERS
 
 \- customer\_id (PK)
@@ -81,4 +85,32 @@ PAYMENTS
 \- payment\_date
 
 \- payment\_method
+
+
+
+**RELATIONSHIPS:**
+
+
+
+One customer has many dogs.
+
+
+
+One dog belongs to one customer.
+
+
+
+One dog has many walks.
+
+
+
+One walker has many walks.
+
+
+
+One walk belongs to one dog and one walker.
+
+
+
+One customer can make many payments.
 
