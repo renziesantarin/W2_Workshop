@@ -1,6 +1,6 @@
 # Logical Model
 
-Group members: Marenza Santarin, Chris Ramirez
+Group members: Marenza Santarin, Cris Ramirez
 
 
 
