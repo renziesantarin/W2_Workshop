@@ -154,14 +154,6 @@ PAYMENTS
 
 
 
-One customer has many dogs.
-
-
-
-One dog belongs to one customer.
-
-
-
 One dog has many walks.
 
 
