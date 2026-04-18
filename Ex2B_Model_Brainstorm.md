@@ -1,6 +1,6 @@
 # Requirements and Conceptual Model
 
-Group members: Marenza Santarin, Cris Ramirez
+Group members: Marenza Santarin, Cris Ramirez, Ndifon Caleb Ndakina, Dimitri Nji
 
 
 
