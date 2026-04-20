@@ -168,3 +168,26 @@ One walk belongs to one dog and one walker.
 
 One customer can make many payments.
 
+
+## Group ERD Comparison Notes
+Discussion date: April 20, 2026
+Notes taken by: Cris
+
+### a)  What are the similarities between individual diagrams? What turned out the same?
+- All diagrams used the same core entities: Customer/Owner, Dogs, Walkers, Walks, Payments
+- Everyone independently split `owner_info` out of Dogs into its own table (fixed the 1NF violation in the original brainstorm)
+- All used auto-increment INT primary keys
+- Walks linked to both Dogs and Walkers via FKs in every version
+- First/last name split on all person entities
+- Payments linked to Walks via walk_id (FK) in every version
+
+### b) Where did each of your diagrams differ? What explanation do you have for those differences? What might be the pros and cons of each approach?
+
+Payments difference:
+- Cris S.: Payments links only to Walk (normalized)
+- Marenza: Payments links to both Walk AND Customer (denormalized)
+- Tradeoff: normalized avoids duplicate data and FK mismatch risk; denormalized is faster for customer level queries
+
+
+### Key takeaway
+Same brainstorm, same structure, different details. The payments linkage debate is a real tradeoff data teams make based on query patterns. For Lana's scale, normalized works fine.
